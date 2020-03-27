@@ -10,9 +10,9 @@ CSV を普通に Excel で開くと下記のような問題が発生する。
 * =1+2 が「=1+2」ではなく、計算されて「3」になってしまう
     * 関数まで実行されてしまうので、脆弱性となってしまう
 
-![foo-csv.png](https://qiita-image-store.s3.amazonaws.com/0/29454/0fde3317-17bf-73d5-a64f-2ca7e1a20f10.png)
+![foo-csv.png](95e4407c-e38b-4bb2-9ce1-6825a50002b5.png)
 
-![image.png](https://qiita-image-store.s3.amazonaws.com/0/29454/15e759f4-f6ff-1a09-522c-fe19142af693.png)
+![image.png](0e6e10ee-4a84-4e70-b399-6a2cd85b01d6.png)
 
 これを解決するには勝手に変な解釈がされないように、あくまで「文字列」としてセルに貼るプログラムを作ればよろしい。
 
@@ -36,7 +36,7 @@ Go言語で開発するとなると、２つのアプローチがある
 
 変換した後、起動した Excel は敢えてそのままに。加工なり、セーブなりはユーザが自分でしてくださいということで（その方が「自分は」使いやすいと思った。もちろん .SaveAs や .Quit も出来るが、余計なお世話感強い）
 
-![foo-xls.png](https://qiita-image-store.s3.amazonaws.com/0/29454/06aff342-d1bb-af7f-3ae3-fb3316143588.png)
+![foo-xls.png](cff148c9-3097-480e-9da7-7c2e43c04381.png)
 
 * CSV は普通に標準ライブラリ `"encoding/csv"` で読み込む
    * ただし、そのまま読み込むと、１行あたりの項目数が変化した時に、csv.ErrFieldCount エラーになるので、<del>それだけは無視するようにする。</del> `("encoding/csv".Reader).FieldsPerRecord` に -1 をセットして、項目数チェックを無効にした（0.4～）

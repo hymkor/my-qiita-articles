@@ -50,7 +50,7 @@ ConEmu + NYAGOSで画面が乱れる
 
 msysgit でエディターが起動しない
 -----------------------------
-![image](https://qiita-image-store.s3.amazonaws.com/0/29454/d9a3764c-0712-c547-5a90-0e3c9092c8e8.png)
+![image](23641ffc-d1f6-436d-90ce-c68647572a73.png)
 
 * msysgitでcommitログを編集するエディタをフルパスで指定する時は「`GIT_EDITOR="C:/Program Files/vim80-kaoriya-win64/vim.exe"`」のように
     * 空白を含まれる場合は、環境変数GIT_EDITOR に「**二重引用符が含まれる形**」になるように指定してください。

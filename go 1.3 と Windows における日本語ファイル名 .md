@@ -32,7 +32,7 @@ func main(){
 
 えーと、「☑」は SJIS にはなかったよね？
 
-![スクリーンショット 2014-07-06 22.55.39.png](https://qiita-image-store.s3.amazonaws.com/0/29454/08d35e4c-3269-7481-ae1d-4f4073715755.png)
+![スクリーンショット 2014-07-06 22.55.39.png](e5015490-8e8f-4184-a284-33499ca8311b.png)
 
 goだと、特に迷うことはない。Python も同様に早く Windows の Unicode API に対応してほしいです。(それとも、Python 3 とかだと対応してるのかな？)
 

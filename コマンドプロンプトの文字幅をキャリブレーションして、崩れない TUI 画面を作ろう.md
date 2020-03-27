@@ -21,11 +21,11 @@ slide: false
 一例をあげると、たとえば「&#x2727;」(`U+2727` : `WHITE FOUR POINTED STAR`)。これ、[Unicode](https://unicode.org/Public/12.1.0/ucd/EastAsianWidth.txt) の規格では１セル分扱いのハズなんですが
 
 **自宅のWindows10でのスクリーンショット**
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/29454/7f12f575-dc47-7fe9-6e8d-c8b1a459f48c.png)
+![image.png](379902a5-e03c-492a-9752-59189630bbb1.png)
 → 1セル分しかカーソルが移動しない（%U+nnnn% は nyagos の拡張機能）
 
 **会社のWindows7でのスクリーンショット**
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/29454/e3c1cb07-f5c3-db0b-1a47-4bd90eaded0a.png)
+![image.png](2a936100-306f-4181-b2e2-cfd40d9a9adc.png)
 → 2セル分カーソルが移動している
 
 環境によって表示した時のカーソル移動量が違うんですね。これはどうしたものかと思っていたら、先生から啓示が出ました「フォントです」「フォントですか」。つまり、Windows 7だからこの幅、10だからこの幅みたいな判断もできない。
@@ -68,7 +68,7 @@ func X()(int,error){
 
 さて、この文字幅計測関数を、サロゲートペアになっていない全ユニコード（※）で実際に動かしてみましょう！
 
-![demo.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/29454/be5c5990-bf70-cc90-9cc8-43c5eee12115.gif)
+![demo.gif](6e64a105-c2fa-41d2-8919-769866380338.gif)
 
 思ったほど時間がかかりませんでした。１分もかかってない。最初に１回やっておくだけでいいならば十分許容範囲です。これをどこかに保存しておけばよいわけです。普通に `"encoding/json"` でも使っておきましょうか。
 

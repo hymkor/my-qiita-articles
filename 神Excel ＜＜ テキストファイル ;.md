@@ -11,7 +11,7 @@ slide: false
 [C:] GodExcel.cmd C3 AA30 tmp.xls ./GodExcel.cmd
 ```
 
-![無題.png](https://qiita-image-store.s3.amazonaws.com/0/29454/5f00cd76-589a-eb96-d298-b3a89847a62f.png)
+![無題.png](f7f299c2-17e4-4107-89d1-0b3856a74a7c.png)
 
 ```ps1:GodExcel.cmd
 @set args=%*

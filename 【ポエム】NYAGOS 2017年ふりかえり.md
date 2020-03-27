@@ -37,7 +37,7 @@ foreach・ブロック-if
 
 ＞ **念願の foreach ・ブロック-if を手に入れたぞ** ＜
 
-![image.png](https://qiita-image-store.s3.amazonaws.com/0/29454/96f19b7e-b486-4a3b-e5e6-7bb2764a2ef4.png)
+![image.png](c658e945-41a4-45ac-bc5f-2a215ad901b2.png)
 
 ```
 if /i "%PROCESSOR_ARCHITECTURE%" == "AMD64" then

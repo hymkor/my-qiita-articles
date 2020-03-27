@@ -55,7 +55,7 @@ func main() {
 }
 ```
 
-![image.png](https://qiita-image-store.s3.amazonaws.com/0/29454/d43e61d5-88b5-a9c1-7dcd-a33c9961159c.png)
+![image.png](ebcb998f-2ada-45d6-a6ef-192f5c086216.png)
 
 SetConsoleMode で、`ENABLE_VIRTUAL_TERMINAL_PROCESSING` (0x0004) というビットを立てなくてはいけないようです。
 

@@ -5,7 +5,7 @@ author: zetamatta
 slide: false
 ---
 
-![image.png](https://qiita-image-store.s3.amazonaws.com/0/29454/cf95f5ef-b48c-8721-266c-4095ad896e87.png)
+![image.png](6f3197e3-2e30-4d12-9a6c-db32cf6cb31c.png)
 
 **バグってる！**
 
@@ -31,7 +31,7 @@ MSDN の記事はすぐ行方不明になるので、要点を整理すると
    * 「ツール」→「オプション」→「環境」→「国際対応の設定」→「English」
    * VisualStudio を再起動
 
-![image.png](https://qiita-image-store.s3.amazonaws.com/0/29454/68073aa6-78e6-99e4-6106-72123360919f.png)
+![image.png](612136e1-bb79-44fa-8d5d-6bb607f0b9ec.png)
 
 バッチリだぜ！
 

@@ -12,7 +12,7 @@ echo echoがずれる問題日本語ffffffffffffffffffffffffffffffffffffffffffff
 ```
 
 
-![image](https://qiita-image-store.s3.amazonaws.com/0/29454/62d530c5-98b7-472f-2cd7-3f0e5a6b2ed8.png)
+![image](a45fb037-925c-450b-a47f-e6a5d91d9edd.png)
 
 ＞ **今、先方のサイトに issue 起案したから、ちょっと待ってて！** ＜
 

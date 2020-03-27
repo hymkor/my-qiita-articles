@@ -6,7 +6,7 @@ slide: false
 ---
 Oracle Universal Installer でアンインストールを試みると
 
-![image.png](https://qiita-image-store.s3.amazonaws.com/0/29454/60959381-ea01-b041-b463-bfc7a71e66e4.png)
+![image.png](90359a46-5ff4-456f-8751-27eb5ddf78b3.png)
 
 というメッセージが出る。これにしたがって、削除バッチ `deinstall.bat` を実行する時の注意点は３つ
 

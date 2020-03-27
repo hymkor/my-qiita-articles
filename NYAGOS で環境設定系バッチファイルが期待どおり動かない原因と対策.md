@@ -50,7 +50,7 @@ nyagos.alias["2017"]=[[pushd "C:\Program Files (x86)\Microsoft Visual Studio\201
 - `.nyagos` でいきなり source を実行してもよいのですが、nyagos の起動がいつも遅くなるのも嫌なので、ロードするコマンドを別途作成しました。
 - `nyagos.alias["2017"]=` などとしているのは 2017 が数字で、Lua の識別子として使えないからです。`vs2017` などであれば、`nyagos.alias.vs2017=`と書けます。
 
-![image.png](https://qiita-image-store.s3.amazonaws.com/0/29454/fe8c223e-26c1-ee0f-954c-38e051b8c321.png)
+![image.png](4b642043-dbfd-4863-bc30-1d6c047e28c7.png)
 
 期待どおり動作しているようです。
 
